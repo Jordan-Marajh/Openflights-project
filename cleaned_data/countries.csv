@@ -1,0 +1,240 @@
+iso_code,name,dafif_code
+BQ,"Bonaire, Saint Eustatius and Saba",
+AW,Aruba,AA
+AG,Antigua and Barbuda,AC
+AE,United Arab Emirates,AE
+AF,Afghanistan,AF
+DZ,Algeria,AG
+AZ,Azerbaijan,AJ
+AL,Albania,AL
+AM,Armenia,AM
+AO,Angola,AO
+AS,American Samoa,AQ
+AR,Argentina,AR
+AU,Australia,AS
+AT,Austria,AU
+AI,Anguilla,AV
+AQ,Antarctica,AY
+BH,Bahrain,BA
+BB,Barbados,BB
+BW,Botswana,BC
+BM,Bermuda,BD
+BE,Belgium,BE
+BS,Bahamas,BF
+BD,Bangladesh,BG
+BZ,Belize,BH
+BA,Bosnia and Herzegovina,BK
+BO,Bolivia,BL
+MM,Myanmar,BM
+BJ,Benin,BN
+BY,Belarus,BO
+SB,Solomon Islands,BP
+BR,Brazil,BR
+IN,India,BS
+BT,Bhutan,BT
+BG,Bulgaria,BU
+BV,Bouvet Island,BV
+BN,Brunei Darussalam,BX
+BI,Burundi,BY
+CA,Canada,CA
+KH,Cambodia,CB
+TD,Chad,CD
+LK,Sri Lanka,CE
+CD,DR Congo,CF
+CG,Congo Republic,CG
+CN,China,CH
+CL,Chile,CI
+KY,Cayman Islands,CJ
+CC,Cocos (Keeling) Islands,CK
+CM,Cameroon,CM
+KM,Comoros,CN
+CO,Colombia,CO
+MP,Northern Mariana Islands,CQ
+CR,Costa Rica,CS
+CF,Central African Republic,CT
+CU,Cuba,CU
+CV,Cabo Verde,CV
+CK,Cook Islands,CW
+CY,Cyprus,CY
+DK,Denmark,DA
+DJ,Djibouti,DJ
+DM,Dominica,DO
+DO,Dominican Republic,DR
+EC,Ecuador,EC
+EG,Egypt,EG
+IE,Ireland,EI
+GQ,Equatorial Guinea,EK
+EE,Estonia,EN
+ER,Eritrea,ER
+SV,El Salvador,ES
+ET,Ethiopia,ET
+CZ,Czech Republic,EZ
+GF,French Guiana,FG
+FI,Finland,FI
+FJ,Fiji,FJ
+FK,Falkland Islands,FK
+FM,"Micronesia, Fed. Sts.",FM
+FO,Faeroe Islands,FO
+PF,French Polynesia,FP
+FR,France,FR
+TF,French Southern Territories,FS
+GM,Gambia,GA
+GA,Gabon,GB
+GE,Georgia,GG
+GH,Ghana,GH
+GI,Gibraltar,GI
+GD,Grenada,GJ
+GG,Guernsey,GK
+GL,Greenland,GL
+DE,Germany,GM
+GP,Guadeloupe,GP
+GU,Guam,GQ
+GR,Greece,GR
+GT,Guatemala,GT
+GN,Guinea,GV
+GY,Guyana,GY
+PS,Palestine,GZ
+HT,Haiti,HA
+HK,Hong Kong,HK
+HM,Heard and McDonald Islands,HM
+HN,Honduras,HO
+HR,Croatia,HR
+HU,Hungary,HU
+IS,Iceland,IC
+ID,Indonesia,ID
+IM,Isle of Man,IM
+IO,British Indian Ocean Territory,IO
+IR,Iran,IR
+IL,Israel,IS
+IT,Italy,IT
+CI,Cote d'Ivoire,IV
+IQ,Iraq,IZ
+JP,Japan,JA
+JE,Jersey,JE
+JM,Jamaica,JM
+JO,Jordan,JO
+KE,Kenya,KE
+KG,Kyrgyz Republic,KG
+KP,North Korea,KN
+KI,Kiribati,KR
+KR,South Korea,KS
+CX,Christmas Island,KT
+KW,Kuwait,KU
+KZ,Kazakhstan,KZ
+LA,Laos,LA
+LB,Lebanon,LE
+LV,Latvia,LG
+LT,Lithuania,LH
+LR,Liberia,LI
+SK,Slovakia,LO
+LS,Lesotho,LT
+LU,Luxembourg,LU
+LY,Libya,LY
+MG,Madagascar,MA
+MQ,Martinique,MB
+MO,Macao,MC
+MD,Moldova,MD
+YT,Mayotte,MF
+MN,Mongolia,MG
+MS,Montserrat,MH
+MW,Malawi,MI
+ME,Montenegro,MJ
+MK,Macedonia,MK
+ML,Mali,ML
+MC,Monaco,MN
+MA,Morocco,MO
+MU,Mauritius,MP
+MR,Mauritania,MR
+MT,Malta,MT
+OM,Oman,MU
+MV,Maldives,MV
+MX,Mexico,MX
+MY,Malaysia,MY
+MZ,Mozambique,MZ
+NC,New Caledonia,NC
+NU,Niue,NE
+NF,Norfolk Island,NF
+NE,Niger,NG
+VU,Vanuatu,NH
+NG,Nigeria,NI
+NL,Netherlands,NL
+NO,Norway,NO
+NP,Nepal,NP
+NR,Nauru,NR
+SR,Suriname,NS
+AN,Netherlands Antilles,NT
+NI,Nicaragua,NU
+NZ,New Zealand,NZ
+PY,Paraguay,PA
+PN,Pitcairn,PC
+PE,Peru,PE
+PK,Pakistan,PK
+PL,Poland,PL
+PA,Panama,PM
+PT,Portugal,PO
+PG,Papua New Guinea,PP
+PW,Palau,PS
+GW,Guinea-Bissau,PU
+QA,Qatar,QA
+RS,Serbia,RB
+RE,Reunion,RE
+MH,Marshall Islands,RM
+RO,Romania,RO
+PH,Philippines,RP
+PR,Puerto Rico,RQ
+RU,Russia,RS
+RW,Rwanda,RW
+SA,Saudi Arabia,SA
+PM,St. Pierre and Miquelon,SB
+KN,St. Kitts and Nevis,SC
+SC,Seychelles,SE
+ZA,South Africa,SF
+SN,Senegal,SG
+SH,St. Helena,SH
+SI,Slovenia,SI
+SL,Sierra Leone,SL
+SG,Singapore,SN
+SO,Somalia,SO
+ES,Spain,SP
+SS,South Sudan,SS
+LC,St. Lucia,ST
+SD,Sudan,SU
+SJ,Svalbard and Jan Mayen Islands,SV
+SE,Sweden,SW
+GS,South Georgia and South Sandwich Is.,SX
+SY,Syria,SY
+CH,Switzerland,SZ
+TT,Trinidad and Tobago,TD
+TH,Thailand,TH
+TJ,Tajikistan,TI
+TC,Turks and Caicos Islands,TK
+TK,Tokelau,TL
+TO,Tonga,TN
+TG,Togo,TO
+ST,Sao Tome and Principe,TP
+TN,Tunisia,TS
+TL,Timor-Leste,TT
+TR,Turkey,TU
+TV,Tuvalu,TV
+TW,Taiwan,TW
+TM,Turkmenistan,TX
+TZ,Tanzania,TZ
+UG,Uganda,UG
+GB,United Kingdom,UK
+UA,Ukraine,UP
+US,United States,US
+BF,Burkina Faso,UV
+UY,Uruguay,UY
+UZ,Uzbekistan,UZ
+VC,St. Vincent and the Grenadines,VC
+VE,Venezuela,VE
+VG,British Virgin Islands,VI
+VN,Vietnam,VM
+VI,United States Virgin Islands,VQ
+WF,Wallis and Futuna Islands,WF
+EH,Western Sahara,WI
+WS,Samoa,WS
+SZ,Eswatini,WZ
+YE,Yemen,YM
+ZM,Zambia,ZA
+ZW,Zimbabwe,ZI

@@ -1,0 +1,169 @@
+airport_id,name,city,country_name
+625,Vagar Airport,Vagar,Faroe Islands
+883,Maya-Maya Airport,Brazzaville,Congo (Brazzaville)
+884,Owando Airport,Owando,Congo (Kinshasa)
+885,Ouesso Airport,Ouesso,Congo (Kinshasa)
+886,Pointe Noire Airport,Pointe-noire,Congo (Brazzaville)
+887,Matsapha Airport,Manzini,Swaziland
+892,RAF Ascension Island,Wide Awake,Saint Helena
+1020,Ndjili International Airport,Kinshasa,Congo (Kinshasa)
+1021,Ndolo Airport,Kinshasa,Congo (Kinshasa)
+1022,Muanda Airport,Muanda,Congo (Kinshasa)
+1023,Kitona Base Airport,Kitona Base,Congo (Kinshasa)
+1024,Bandundu Airport,Bandoundu,Congo (Kinshasa)
+1025,Kikwit Airport,Kikwit,Congo (Kinshasa)
+1026,Mbandaka Airport,Mbandaka,Congo (Kinshasa)
+1027,Gbadolite Airport,Gbadolite,Congo (Kinshasa)
+1028,Gemena Airport,Gemena,Congo (Kinshasa)
+1029,Kotakoli Airport,Kotakoli,Congo (Kinshasa)
+1030,Lisala Airport,Lisala,Congo (Kinshasa)
+1031,Bangoka International Airport,Kisangani,Congo (Kinshasa)
+1032,Matari Airport,Isiro,Congo (Kinshasa)
+1033,Bunia Airport,Bunia,Congo (Kinshasa)
+1034,Buta Zega Airport,Buta Zega,Congo (Kinshasa)
+1035,Bukavu Kavumu Airport,Bukavu/kavumu,Congo (Kinshasa)
+1036,Goma International Airport,Goma,Congo (Kinshasa)
+1037,Kindu Airport,Kindu,Congo (Kinshasa)
+1038,Lubumbashi International Airport,Lubumashi,Congo (Kinshasa)
+1039,Kolwezi Airport,Kolwezi,Congo (Kinshasa)
+1040,Kalemie Airport,Kalemie,Congo (Kinshasa)
+1041,Kamina Base Airport,Kamina Base,Congo (Kinshasa)
+1042,Kananga Airport,Kananga,Congo (Kinshasa)
+1043,Mbuji Mayi Airport,Mbuji-mayi,Congo (Kinshasa)
+1102,Amílcar Cabral International Airport,Amilcar Cabral,Cape Verde
+1103,Rabil Airport,Boa Vista,Cape Verde
+1104,Maio Airport,Maio,Cape Verde
+1105,Preguiça Airport,Sao Nocolau Island,Cape Verde
+1106,São Pedro Airport,Sao Vicente Island,Cape Verde
+1440,Miquelon Airport,Miquelon,Saint Pierre and Miquelon
+1441,St Pierre Airport,St.-pierre,Saint Pierre and Miquelon
+1968,Hihifo Airport,Wallis,Wallis and Futuna
+2174,Jerusalem Airport,Jerusalem,West Bank
+2253,Henderson Field,Midway,Midway Islands
+2254,Chuuk International Airport,Chuuk,Micronesia
+2255,Pohnpei International Airport,Pohnpei,Micronesia
+2257,Kosrae International Airport,Kosrae,Micronesia
+2258,Yap International Airport,Yap,Micronesia
+2883,Cyril E. King Airport,St. Thomas,Virgin Islands
+2884,Henry E Rohlsen Airport,St. Croix Island,Virgin Islands
+2891,Robert L. Bradshaw International Airport,Basse Terre,Saint Kitts and Nevis
+2893,George F. L. Charles Airport,Castries,Saint Lucia
+2894,Hewanorra International Airport,Hewandorra,Saint Lucia
+2905,Canouan Airport,Canouan Island,Saint Vincent and the Grenadines
+2906,Mustique Airport,Mustique,Saint Vincent and the Grenadines
+2907,Argyle International Airport,Kingstown,Saint Vincent and the Grenadines
+2912,Manas International Airport,Bishkek,Kyrgyzstan
+2913,Osh Airport,Osh,Kyrgyzstan
+3121,Macau International Airport,Macau,Macau
+3207,Ann Airport,Ann,Burma
+3208,Anisakan Airport,Anisakan,Burma
+3209,Bagan Airport,Bagan,Burma
+3211,Coco Island Airport,Coco Island,Burma
+3213,Heho Airport,Heho,Burma
+3214,Hommalinn Airport,Hommalin,Burma
+3215,Kengtung Airport,Kengtung,Burma
+3217,Kyaukpyu Airport,Kyaukpyu,Burma
+3220,Lashio Airport,Lashio,Burma
+3221,Lanywa Airport,Lanywa,Burma
+3222,Mandalay International Airport,Mandalay,Burma
+3223,Myeik Airport,Myeik,Burma
+3224,Myitkyina Airport,Myitkyina,Burma
+3226,Momeik Airport,Momeik,Burma
+3227,Mong Hsat Airport,Mong Hsat,Burma
+3228,Nampong Air Base,Nampong,Burma
+3229,Namsang Airport,Namsang,Burma
+3230,Hpa-N Airport,Hpa-an,Burma
+3232,Putao Airport,Putao,Burma
+3233,Pyay Airport,Pyay,Burma
+3234,Shante Air Base,Shante,Burma
+3235,Sittwe Airport,Sittwe,Burma
+3236,Thandwe Airport,Thandwe,Burma
+3237,Tachileik Airport,Tachilek,Burma
+3238,Taungoo Airport,Taungoo,Burma
+3239,Yangon International Airport,Yangon,Burma
+3272,Brunei International Airport,Bandar Seri Begawan,Brunei
+3309,Suai Airport,Suai,East Timor
+3310,Presidente Nicolau Lobato International Airport,Dili,East Timor
+3311,Cakung Airport,Baucau,East Timor
+4105,Hosea Kutako International Airport,Windhoek,Namibia
+4151,Magway Airport,Magwe,Burma
+4152,Kanti Airport,Khamti,Burma
+4272,Qinhuangdao Beidaihe Airport,Bagan,Burma
+4382,Johnston Atoll Airport,Johnston Island,Johnston Atoll
+5611,Ngot Nzoungou Airport,Loubomo,Congo (Brazzaville)
+5641,Luderitz Airport,Luderitz,Namibia
+5642,Ondangwa Airport,Ondangwa,Namibia
+5643,Oranjemund Airport,Oranjemund,Namibia
+5644,Swakopmund Airport,Swakopmund,Namibia
+5645,Eros Airport,Windhoek,Namibia
+5646,Boma Airport,Boma,Congo (Kinshasa)
+5647,Tshimpi Airport,Matadi,Congo (Kinshasa)
+5648,Inongo Airport,Inongo,Congo (Kinshasa)
+5649,Nioki Airport,Nioki,Congo (Kinshasa)
+5650,Basango Mboliasa Airport,Kiri,Congo (Kinshasa)
+5651,Basankusu Airport,Basankusu,Congo (Kinshasa)
+5652,Tshikapa Airport,Tshikapa,Congo (Kinshasa)
+5653,Lodja Airport,Lodja,Congo (Kinshasa)
+5654,Ilebo Airport,Ilebo,Congo (Kinshasa)
+5674,Praia International Airport,"Praia, Santiago Island",Cape Verde
+5675,São Filipe Airport,"Sao Filipe, Fogo Island",Cape Verde
+5885,Pointe Vele Airport,Futuna Island,Wallis and Futuna
+6079,Vance W. Amory International Airport,Charlestown,Saint Kitts and Nevis
+6081,J F Mitchell Airport,Bequia,Saint Vincent and the Grenadines
+6082,Union Island International Airport,Union Island,Saint Vincent and the Grenadines
+6196,Banmaw Airport,Banmaw,Burma
+6197,Dawei Airport,Dawei,Burma
+6198,Kawthoung Airport,Kawthoung,Burma
+6199,Loikaw Airport,Loikaw,Burma
+6200,Mawlamyine Airport,Mawlamyine,Burma
+6201,Pathein Airport,Pathein,Burma
+6202,Pakhokku Airport,Pakhokku,Burma
+6458,Anduki Airport,Seria,Brunei
+6778,Walvis Bay Airport,Walvis Bay,Namibia
+6779,Katima Mulilo Airport,Mpacha,Namibia
+6949,Naypyidaw Airport,Naypyidaw,Burma
+6950,Kyaukhtu South Airport,Kyauktu,Burma
+6952,Bokpyinn Airport,Bokepyin,Burma
+7309,Charlotte Amalie Harbor Seaplane Base,Charlotte Amalie,Virgin Islands
+7451,Svea Airport,Sveagruva,Svalbard
+7452,Ny-Ålesund Airport (Hamnerabben),Ny-Alesund,Svalbard
+7633,Grootfontein Airport,Grootfontein,Namibia
+7634,Rundu Airport,Rundu,Namibia
+7674,Wake Island Airfield,Wake island,Wake Island
+7828,Batken Airport,Batken,Kyrgyzstan
+7906,Monywar Airport,Monywa,Burma
+8069,Ye Airport,Ye,Burma
+8083,Okaukuejo Airport,Okaukuejo,Namibia
+8084,Mokuti Lodge Airport,Mokuti Lodge,Namibia
+8130,Namtu Airport,Naypyidaw,Burma
+8148,Tsumeb Airport,Tsumeb,Namibia
+8165,Mykines Heliport,Mykines,Faroe Islands
+8918,Keetmanshoop Airport,Keetmanshoop,Namibia
+9123,Kasongo Airport,Kasongo,Congo (Kinshasa)
+10802,Skúvoy Heliport,Skuvoy,Faroe Islands
+10803,Stóra Dímun Heliport,Stora Dimun,Faroe Islands
+10804,Frooba Heliport,Frooba,Faroe Islands
+11193,Mwene-Ditu Airport,Mwene-Ditu,Congo (Kinshasa)
+11194,Tunta Airport,Kabinda,Congo (Kinshasa)
+11195,Ikela Airport,Ikela,Congo (Kinshasa)
+11208,Bumbar Airport,Bumba,Congo (Kinshasa)
+11229,Beni Airport,Beni,Congo (Kinshasa)
+11230,Boende Airport,Boende,Congo (Kinshasa)
+11290,Kongolo Airport,Kongolo,Congo (Kinshasa)
+11292,Kahemba Airport,Kahemba,Congo (Kinshasa)
+11808,Arandis Airport,Arandis,Namibia
+11809,Mariental Airport,Mariental,Namibia
+11948,Issyk-Kul International Airport,Tamchy,Kyrgyzstan
+11949,Kant Air Base,Kant,Kyrgyzstan
+12003,Meiktila Air Base,Meiktila,Burma
+13106,Tórshavn/Bodanes Heliport,Torshavn,Faroe Islands
+13112,Otjiwarongo Airport,Otjiwarongo,Namibia
+13260,Oyo Ollombo Airport,Oyo,Congo (Brazzaville)
+13447,Impfondo Airport,Impfondo,Congo (Brazzaville)
+13463,King Mswati III International Airport,Manzini,Swaziland
+13561,Kazarman Airport,Kazarman,Kyrgyzstan
+13562,Kerben Airport,Kerben,Kyrgyzstan
+13564,Naryn Airport,Naryn,Kyrgyzstan
+13763,Farm Whitwater East Landing Strip,Hardap,Namibia
+13802,Klaksvik Heliport,Klaksvik,Faroe Islands
+14099,Jalal-Abad Airport,Jalal-Abad,Kyrgyzstan

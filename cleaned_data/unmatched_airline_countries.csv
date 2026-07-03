@@ -1,0 +1,246 @@
+airline_id,name,country_name
+-1,Unknown,
+1,Private flight,
+28,Asiana Airlines,Republic of Korea
+34,Afric'air Express,Ivory Coast
+38,African Business and Transportations,Democratic Republic of the Congo
+47,Aerocenter,AEROCENTER
+63,Air Somalia,Somali Republic
+68,Air Tindi,Canadian Territories
+75,Abicar,Ivory Coast
+94,Aerocesar,AEROCESAR
+144,Air Afrique Vacancies,Ivory Coast
+153,Air Namibia,Namibia
+157,Afrique Regional Airways,Ivory Coast
+186,Airport Helicopter Basel,AIRPORT HELICOPTER
+204,African International Airways,Swaziland
+213,Air Bandama,Ivory Coast
+252,Air Korea Co. Ltd.,Republic of Korea
+259,Anikay Air Company,Kyrgyzstan
+292,Alas Nacionales,ALNACIONAL
+337,Antares Airtransport,ANTARES
+344,Aviacion Del Noroeste,AVINOR
+348,Alcon Servicios Aereos,ALCON
+356,Astoria,ASTORIA
+362,As,COMPANY AS
+377,Airpac Airlines,AIRPAC
+381,Alpha Aviation,AIRFLIGHT
+382,ASA Pesada,ASA PESADA
+383,Air Print,AIR PRINT
+390,Appalachian Flying Service,APPALACHIAN
+391,Airpac,ALASKA PACIFIC
+393,Aerolineas Pacifico Atlantico,AEROPERLAS
+395,Aeropuma,AEROPUMA
+396,Air Plan International,Democratic Republic of the Congo
+400,Aeroatlas,ATCO
+404,Aviones de Renta de Quintana Roo,AVIOQUINTANA
+411,Aires,S.A.
+415,Aerojet de Costa Rica,
+425,Armstrong Air,ARMSTRONG
+431,Air Xpress,AIREX
+439,Alaska Airlines,ALASKA
+444,Air Schefferville,SCHEFF
+446,Aerosun International,AEROSUN
+453,All Star Airlines,ALL STAR
+454,Air Class,AIR CLASS
+467,Atlantis Transportation Services,ATLANTIS CANADA
+486,Air Transport Service,Democratic Republic of the Congo
+500,Audi Air,AUDI AIR
+511,Aurora Aviation,AURORA AIR
+513,Aerolineas Uruguayas,AUSA
+515,Avianca - Aerovias Nacionales de Colombia,AVIANCA
+517,Alamo Aviacion,ALAMO
+521,Avia Traffic Company,Kyrgyzstan
+523,Aviacion Ejecutiva Mexicana,AVEMEX
+530,Aviation Services,AQUILINE
+531,Active Aero Charter,ACTIVE AERO
+541,Agence Nationale des Aerodromes et de la Meteorologie,Ivory Coast
+550,Swaziland Airlink,Swaziland
+552,Aerovaradero,AEROVARADERO
+554,Airways International,AIRNAT
+564,Airwave Transport,AIRWAVE
+566,Aeroway,AEROWEE
+573,Aeron International Airlines,AIR FREIGHTER
+584,Axel Rent,RENTAXEL
+591,Airman,AIRMAN
+592,Atlantic Airlines,ATLANTIC NICARAGUA
+606,Azimut,AZIMUT
+614,Arizona Airways,ARIZAIR
+682,Air Ivoire,Ivory Coast
+724,ATRAN Cargo Airlines,Russian Federation
+758,Africa One,Democratic Republic of the Congo
+764,Air Charter Services,Democratic Republic of the Congo
+849,Air S,Air S
+881,Atlantic Airways,Faroe Islands
+888,African Company Airlines,Democratic Republic of the Congo
+984,Asia Aero Survey and Consulting Engineers,Republic of Korea
+998,Air Koryo,Democratic People's Republic of Korea
+1059,Air Manas,Kyrgyzstan
+1109,Astair,Russian Federation
+1122,Air Inter Ivoire,Ivory Coast
+1193,Aero Africa,Swaziland
+1198,Aviation Ministry of the Interior of the Russian Federation,Russian Federation
+1202,Air Afrique,Ivory Coast
+1230,Aero-Service,Republic of the Congo
+1390,British Gulf International,S
+1391,British Gulf International-Fez,Kyrgyzstan
+1406,Balkan Bulgarian Airlines,
+1479,Bravo Air Congo,Democratic Republic of the Congo
+1484,Bistair - Fez,Kyrgyzstan
+1497,Botir-Avia,Kyrgyzstan
+1502,Blue Airlines,Democratic Republic of the Congo
+1509,Bellview Airlines,
+1516,BAX Global,
+1574,C Air Jet Airlines,Syrian Arab Republic
+1578,C.S.P.,AIR-MAUR
+1590,CI-Tours,Ivory Coast
+1595,COMAV,Namibia
+1601,Cabo Verde Express,Cape Verde
+1644,Cardolaar,Namibia
+1651,Cargo Ivoire,Ivory Coast
+1680,Cathay Pacific,Hong Kong SAR of China
+1695,Central Air Express,Democratic Republic of Congo
+1718,Cetraca Aviation Service,Democratic Republic of the Congo
+1808,Click Airways,Kyrgyzstan
+1851,Compania Boliviana de Transporte Aereo Privado Aerosur,ASUR
+1914,Country International Airlines,Kyrgyzstan
+1953,DAS Airlines,Democratic Republic of the Congo
+1968,Dahla Airlines,Democratic Republic of Congo
+1975,Damascene Airways,Syrian Arab Republic
+2056,Dragonair,DRAGON
+2080,Electronic Data Systems,
+2189,Empresa (Aero Uruguay),UNIFORM OSCAR
+2200,Enkor JSC,Russia]]
+2204,Enterprise World Airways,Democratic Republic of the Congo
+2206,Equaflight Service,Republic of the Congo
+2215,Espace Aviation Services,Democratic Republic of the Congo
+2290,Express International Cargo,S
+2309,Fab Air,Kyrgyzstan
+2331,Faroejet,Faroe Islands
+2346,Finalair Congo,Republic of the Congo
+2478,Funtshi Aviation Service,Democratic Republic of the Congo
+2508,Galaxy Air,Kyrgyzstan
+2562,Global Airways,Democratic Republic of Congo
+2588,Golden Rule Airlines,Kyrgyzstan
+2597,Government Flying Service,Hong Kong SAR of China
+2636,Gulf African Airlines - Gambia,
+2649,Guyana Airways 2000,
+2680,Hansung Airlines,Republic of Korea
+2699,Helenair Corporation,Saint Lucia
+2756,Hewa Bora Airways,Democratic Republic of the Congo
+2773,Hong Kong Airlines,Hong Kong SAR of China
+2774,Hong Kong Express Airways,Hong Kong SAR of China
+2804,ICAO,
+2867,Intal Avia,Kyrgyzstan
+2873,Inter Islands Airlines,Cape Verde
+2906,International Company for Transport,ALDAWLYH AIR
+2910,International SOS WIndhoek,Namibia
+2958,Itek Air,Kyrgyzstan
+2959,Ivoire Aero Services,Ivory Coast
+2960,Ivoire Airways,Ivory Coast
+2961,Ivoire Jet Express,Ivory Coast
+2982,Jambo Africa Airlines,Democratic Republic of Congo
+2994,Jeju Air,Republic of Korea
+3028,JetAfrica Swaziland,Swaziland
+3072,Jonsson,ODINN
+3079,Jubba Airways,Somali Republic
+3146,Kinshasa Airways,Democratic Republic of the Congo
+3163,Korean Air,Republic of Korea
+3181,Kvadro Aero,Kyrgyzstan
+3183,Kyrgyz Airlines,Kyrgyzstan
+3184,Kyrgyz Trans Avia,Kyrgyzstan
+3185,Kyrgyzstan,Kyrgyzstan
+3186,Kyrgyzstan Airlines,Kyrgyzstan
+3187,Kyrgyzstan Department of Aviation,Kyrgyzstan
+3188,Kyrgz General Aviation,Kyrgyzstan
+3207,LAP Colombia - Lineas Aereas Petroleras,LAP
+3208,LASTP,S
+3232,Lao Air Company,Lao Peoples Democratic Republic
+3233,Lao Airlines,Lao Peoples Democratic Republic
+3234,Lao Capricorn Air,Lao Peoples Democratic Republic
+3261,Lignes Aeriennes Congolaises,Democratic Republic of the Congo
+3264,Lignes Nationales Aeriennes - Linacongo,Republic of the Congo
+3286,Linhas Aereas Santomenses,S
+3382,Malila Airlift,Democratic Republic of the Congo
+3429,Max Avia,Kyrgyzstan
+3474,Metrojet,Hong Kong SAR of China
+3514,Ministry of Agriculture,WATCHDOG
+3558,Mudan Airlines,Somali Republic
+3562,Multiflight,
+3573,NEL Cargo,Ivory Coast
+3581,Namibia Commerical Aviation,Namibia
+3582,Namibian Defence Force,Namibia
+3591,Natalco Air Lines,S
+3676,Nomad Aviation,Namibia
+3771,Okapi Airways,Democratic Republic of Congo
+3808,Orient Air,Syrian Arab Republic
+3820,Osh Avia,Kyrgyzstan
+3891,Panafrican Airways,Ivory Coast
+3966,Phoenix Aviation,Kyrgyzstan
+4051,Princess Air,
+4121,RAF St Athan,UNited Kingdom
+4160,Red Sky Ventures,Namibia
+4165,Reem Air,Kyrgyzstan
+4201,Rijnmond Air Services,Netherland
+4255,Royal Brunei Airlines,Brunei
+4274,Royal Swazi National Airways,Swaziland
+4306,Sky Way Air,Kyrgyzstan
+4321,Sham Wing Airlines,Syrian Arab Republic
+4338,Scibe Airlift,Democratic Republic of the Congo
+4399,Sky Gate International Aviation,Kyrgyzstan
+4412,Shabair,Democratic Republic of the Congo
+4417,Seoul Air International,Republic of Korea
+4430,Scorpio Aviation,
+4456,Southern Jersey Airways,ACOM
+4506,Sedalia,Boonville Stage Line
+4514,Star African Air,Somali Republic
+4524,Sun Light,Kyrgyzstan
+4534,St. Vincent Grenadines Air (1990),Saint Vincent and the Grenadines
+4566,Swazi Express Airways,Swaziland
+4568,Servair,SWISSBIRD
+4586,Syrian Arab Airlines,Syrian Arab Republic
+4618,Scenic Air,Namibia
+4679,Sky Trek International Airlines,
+4774,Servicios Aerecs Del Sol,AEROSOL
+4798,Somali Airlines,Somali Republic
+4807,Solid Air,Netherland
+4854,Sirin,
+4907,Tenir Airlines,Kyrgyzstan
+4968,Tropical International Airways,Saint Kitts and Nevis
+4974,Tulip Air,Netherland
+5048,Turdus Airways,Netherland
+5058,Trans-Air-Congo,Republic of the Congo
+5060,Trast Aero,Kyrgyzstan
+5061,Trast Aero,Kyrgyzstan
+5069,Trans Service Airlift,Democratic Republic of Congo
+5199,Transports et Travaux A,
+5237,Union Africaine des Transports,Ivory Coast
+5304,Veles,VELES
+5417,Westair Aviation,Namibia
+5445,Wimbi Dira Airways,Democratic Republic of Congo
+5450,Windward Islands Airways International,Netherland
+5458,Winlink,Saint Lucia
+5467,World Wing Aviation,Kyrgyzstan
+5506,Zaire Aero Service,Democratic Republic of Congo
+5507,Zairean Airlines,Democratic Republic of Congo
+5533,Tyrolean Airways,
+5556,buzz,
+5813,Air Mandalay,Burma
+5982,Air Busan,Republic of Korea
+9784,Yangon Airways,Burma
+11724,SVG Air,Saint Vincent and the Grenadines
+11804,Halcyonair,Cape Verde
+11805,Business Aviation,Congo (Kinshasa)
+11806,Compagnie Africaine d\\'Aviation,Congo (Kinshasa)
+13187,Eastok Avia,Kyrgyzstan
+13389,South West Africa Territory Force,Namibia
+14388,Congo Express,Congo (Kinshasa)
+16409,Nihon.jet connect,Kyrgyzstan
+16960,Asian Wings Airways,Burma
+17786,Korongo Airlines,Congo (Kinshasa)
+18476,Air KBZ,Burma
+18497,Yangon Airways Ltd.,Burma
+18762,Lina Congo,Congo (Brazzaville)
+19244,Golden Myanmar Airlines,Burma
+20225,Mann Yadanarpon Airlines,Burma
+21036,Tez Jet Airlines,Kyrgyzstan
