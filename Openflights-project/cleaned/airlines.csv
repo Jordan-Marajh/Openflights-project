@@ -1,4 +1,4 @@
-airline_id,name,alias,iata_code,icao_code,callsign,country_iso_code,active
+airline_id,airline_name,alias,iata_code,icao_code,callsign,iso_code,active
 -1,Unknown,,-,,,,Y
 1,Private flight,,-,,,,Y
 2,135 Airways,,,GNL,GENERAL,US,N

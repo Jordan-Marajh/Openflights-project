@@ -1,4 +1,4 @@
-airport_id,name,city,country_name
+airport_id,airport_name,city,country_name
 625,Vagar Airport,Vagar,Faroe Islands
 883,Maya-Maya Airport,Brazzaville,Congo (Brazzaville)
 884,Owando Airport,Owando,Congo (Kinshasa)

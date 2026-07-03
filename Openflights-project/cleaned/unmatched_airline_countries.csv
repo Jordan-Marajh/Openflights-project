@@ -1,4 +1,4 @@
-airline_id,name,country_name
+airline_id,airline_name,country_name
 -1,Unknown,
 1,Private flight,
 28,Asiana Airlines,Republic of Korea
