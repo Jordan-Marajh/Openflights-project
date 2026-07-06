@@ -1,0 +1,306 @@
+USE OpenFlights;
+
+-- 1. Which countries have the most airports and active airlines?
+
+--SELECT TOP (20)
+--    c.country_name,
+--    COUNT(DISTINCT a.airport_id) AS number_of_airports,
+--    COUNT(DISTINCT CASE WHEN al.active = 'Y' THEN al.airline_id END) AS active_airlines
+--FROM dbo.country c
+--LEFT JOIN dbo.airport a
+--    ON c.iso_code = a.iso_code
+--LEFT JOIN dbo.airline al
+--    ON c.iso_code = al.iso_code
+--GROUP BY c.country_name
+--ORDER BY number_of_airports DESC, active_airlines DESC;
+
+--WITH airport_counts AS (
+--    SELECT
+--        iso_code,
+--        COUNT(*) AS number_of_airports
+--    FROM dbo.airport
+--    WHERE iso_code IS NOT NULL
+--    GROUP BY iso_code
+--),
+--active_airline_counts AS (
+--    SELECT
+--        iso_code,
+--        COUNT(*) AS active_airlines
+--    FROM dbo.airline
+--    WHERE iso_code IS NOT NULL
+--      AND active = 'Y'
+--    GROUP BY iso_code
+--)
+--SELECT TOP (20)
+--    c.country_name,
+--    COALESCE(ac.number_of_airports, 0) AS number_of_airports,
+--    COALESCE(aac.active_airlines, 0) AS active_airlines
+--FROM dbo.country c
+--LEFT JOIN airport_counts ac
+--    ON c.iso_code = ac.iso_code
+--LEFT JOIN active_airline_counts aac
+--    ON c.iso_code = aac.iso_code
+--ORDER BY number_of_airports DESC, active_airlines DESC;
+
+---------------------------------------------------------
+
+-- 2. Which airports are the busiest globally?
+
+--WITH outgoing AS (
+--    SELECT
+--        source_airport_id AS airport_id,
+--        COUNT(*) AS outgoing_routes
+--    FROM dbo.route
+--    WHERE source_airport_id IS NOT NULL
+--    GROUP BY source_airport_id
+--),
+--incoming AS (
+--    SELECT
+--        destination_airport_id AS airport_id,
+--        COUNT(*) AS incoming_routes
+--    FROM dbo.route
+--    WHERE destination_airport_id IS NOT NULL
+--    GROUP BY destination_airport_id
+--)
+--SELECT TOP (20)
+--    a.airport_name,
+--    a.iata_code,
+--    a.city,
+--    c.country_name,
+--    COALESCE(o.outgoing_routes, 0) AS outgoing_routes,
+--    COALESCE(i.incoming_routes, 0) AS incoming_routes,
+--    COALESCE(o.outgoing_routes, 0) + COALESCE(i.incoming_routes, 0) AS total_routes
+--FROM dbo.airport a
+--LEFT JOIN outgoing o
+--    ON a.airport_id = o.airport_id
+--LEFT JOIN incoming i
+--    ON a.airport_id = i.airport_id
+--LEFT JOIN dbo.country c
+--    ON a.iso_code = c.iso_code
+--ORDER BY total_routes DESC;
+
+---------------------------------------------------------
+
+-- 3. Which countries have the most international outgoing routes?
+
+--SELECT TOP (20)
+--    src_country.country_name AS country_name,
+--    COUNT(*) AS total_outgoing_routes,
+--    SUM(CASE WHEN src.iso_code = dst.iso_code THEN 1 ELSE 0 END) AS domestic_routes,
+--    SUM(CASE WHEN src.iso_code <> dst.iso_code THEN 1 ELSE 0 END) AS international_routes,
+--    CAST(
+--        100.0 * SUM(CASE WHEN src.iso_code <> dst.iso_code THEN 1 ELSE 0 END) / COUNT(*)
+--        AS DECIMAL(5,2)
+--    ) AS international_route_percentage
+--FROM dbo.route r
+--JOIN dbo.airport src
+--    ON r.source_airport_id = src.airport_id
+--JOIN dbo.airport dst
+--    ON r.destination_airport_id = dst.airport_id
+--JOIN dbo.country src_country
+--    ON src.iso_code = src_country.iso_code
+--WHERE src.iso_code IS NOT NULL
+--  AND dst.iso_code IS NOT NULL
+--GROUP BY src_country.country_name
+--ORDER BY international_routes DESC;
+
+---------------------------------------------------------
+
+-- 4. Which country pairs have the most routes between them?
+
+--SELECT TOP (30)
+--    src_country.country_name AS source_country,
+--    dst_country.country_name AS destination_country,
+--    COUNT(*) AS route_count,
+--    COUNT(DISTINCT r.airline_id) AS number_of_airlines,
+--    COUNT(DISTINCT CONCAT(src.airport_id, '-', dst.airport_id)) AS airport_pairs
+--FROM dbo.route r
+--JOIN dbo.airport src
+--    ON r.source_airport_id = src.airport_id
+--JOIN dbo.airport dst
+--    ON r.destination_airport_id = dst.airport_id
+--JOIN dbo.country src_country
+--    ON src.iso_code = src_country.iso_code
+--JOIN dbo.country dst_country
+--    ON dst.iso_code = dst_country.iso_code
+--WHERE src.iso_code <> dst.iso_code
+--GROUP BY
+--    src_country.country_name,
+--    dst_country.country_name
+--ORDER BY route_count DESC;
+
+--WITH route_country_pairs AS (
+--    SELECT
+--        r.route_id,
+--        r.airline_id,
+--        src.airport_id AS source_airport_id,
+--        dst.airport_id AS destination_airport_id,
+--        src.iso_code AS source_iso_code,
+--        dst.iso_code AS destination_iso_code
+--    FROM dbo.route r
+--    JOIN dbo.airport src
+--        ON r.source_airport_id = src.airport_id
+--    JOIN dbo.airport dst
+--        ON r.destination_airport_id = dst.airport_id
+--    WHERE src.iso_code IS NOT NULL
+--      AND dst.iso_code IS NOT NULL
+--      AND src.iso_code <> dst.iso_code
+--),
+--country_route_stats AS (
+--    SELECT
+--        source_iso_code,
+--        destination_iso_code,
+--        COUNT(*) AS route_count,
+--        COUNT(DISTINCT airline_id) AS number_of_airlines
+--    FROM route_country_pairs
+--    GROUP BY source_iso_code, destination_iso_code
+--),
+--country_airport_pair_stats AS (
+--    SELECT
+--        source_iso_code,
+--        destination_iso_code,
+--        COUNT(*) AS airport_pairs
+--    FROM (
+--        SELECT
+--            source_iso_code,
+--            destination_iso_code,
+--            source_airport_id,
+--            destination_airport_id
+--        FROM route_country_pairs
+--        GROUP BY
+--            source_iso_code,
+--            destination_iso_code,
+--            source_airport_id,
+--            destination_airport_id
+--    ) unique_airport_pairs
+--    GROUP BY source_iso_code, destination_iso_code
+--)
+--SELECT TOP (30)
+--    src_country.country_name AS source_country,
+--    dst_country.country_name AS destination_country,
+--    crs.route_count,
+--    crs.number_of_airlines,
+--    caps.airport_pairs
+--FROM country_route_stats crs
+--JOIN country_airport_pair_stats caps
+--    ON crs.source_iso_code = caps.source_iso_code
+--   AND crs.destination_iso_code = caps.destination_iso_code
+--JOIN dbo.country src_country
+--    ON crs.source_iso_code = src_country.iso_code
+--JOIN dbo.country dst_country
+--    ON crs.destination_iso_code = dst_country.iso_code
+--ORDER BY crs.route_count DESC;
+
+---------------------------------------------------------
+
+-- 5. Which airlines serve the most countries?
+
+--WITH airline_country_touch AS (
+--    SELECT
+--        r.airline_id,
+--        src.iso_code
+--    FROM dbo.route r
+--    JOIN dbo.airport src
+--        ON r.source_airport_id = src.airport_id
+--    WHERE src.iso_code IS NOT NULL
+
+--    UNION
+
+--    SELECT
+--        r.airline_id,
+--        dst.iso_code
+--    FROM dbo.route r
+--    JOIN dbo.airport dst
+--        ON r.destination_airport_id = dst.airport_id
+--    WHERE dst.iso_code IS NOT NULL
+--),
+--route_counts AS (
+--    SELECT
+--        airline_id,
+--        COUNT(*) AS total_routes
+--    FROM dbo.route
+--    GROUP BY airline_id
+--)
+--SELECT TOP (20)
+--    al.airline_name,
+--    al.iata_code,
+--    al.active,
+--    COUNT(act.iso_code) AS countries_served,
+--    rc.total_routes
+--FROM airline_country_touch act
+--JOIN dbo.airline al
+--    ON act.airline_id = al.airline_id
+--JOIN route_counts rc
+--    ON al.airline_id = rc.airline_id
+--GROUP BY
+--    al.airline_name,
+--    al.iata_code,
+--    al.active,
+--    rc.total_routes
+--ORDER BY countries_served DESC, rc.total_routes DESC;
+
+---------------------------------------------------------
+
+-- 6. From a chosen airport, what extra destinations 
+-- become reachable with one stop?
+
+--CREATE OR ALTER PROCEDURE dbo.GetOneStopDestinations
+--    @StartIata CHAR(3)
+--AS
+--BEGIN
+--    SET NOCOUNT ON;
+
+--    WITH start_airport AS (
+--        SELECT airport_id
+--        FROM dbo.airport
+--        WHERE iata_code = @StartIata
+--    ),
+--    direct_destinations AS (
+--        SELECT DISTINCT
+--            r.destination_airport_id AS airport_id
+--        FROM dbo.route r
+--        JOIN start_airport s
+--            ON r.source_airport_id = s.airport_id
+--    ),
+--    one_stop_destinations AS (
+--        SELECT
+--            second_leg.destination_airport_id AS final_airport_id,
+--            first_leg.destination_airport_id AS stopover_airport_id
+--        FROM start_airport s
+--        JOIN dbo.route first_leg
+--            ON s.airport_id = first_leg.source_airport_id
+--        JOIN dbo.route second_leg
+--            ON first_leg.destination_airport_id = second_leg.source_airport_id
+--        WHERE second_leg.destination_airport_id <> s.airport_id
+--    )
+--    SELECT TOP (50)
+--        final_dst.iata_code AS reachable_airport,
+--        final_dst.airport_name,
+--        final_dst.city,
+--        c.country_name,
+--        COUNT(DISTINCT os.stopover_airport_id) AS possible_stopovers
+--    FROM one_stop_destinations os
+--    JOIN dbo.airport final_dst
+--        ON os.final_airport_id = final_dst.airport_id
+--    LEFT JOIN dbo.country c
+--        ON final_dst.iso_code = c.iso_code
+--    WHERE NOT EXISTS (
+--        SELECT 1
+--        FROM direct_destinations dd
+--        WHERE dd.airport_id = os.final_airport_id
+--    )
+--    GROUP BY
+--        final_dst.iata_code,
+--        final_dst.airport_name,
+--        final_dst.city,
+--        c.country_name
+--    ORDER BY possible_stopovers DESC, reachable_airport;
+--END;
+--GO
+
+--EXEC dbo.GetOneStopDestinations @StartIata = 'LHR';
+--EXEC dbo.GetOneStopDestinations @StartIata = 'JFK';
+--EXEC dbo.GetOneStopDestinations @StartIata = 'CDG';
+--EXEC dbo.GetOneStopDestinations @StartIata = 'DXB';
+
+---------------------------------------------------------
